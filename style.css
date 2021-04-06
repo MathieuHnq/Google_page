@@ -1,0 +1,197 @@
+*
+{
+	text-decoration:none;
+	font-family: Arial, sans-serif;
+}
+
+a:link
+{
+	color:#212121;
+}
+
+a:active
+{
+	color:#212121;
+}
+
+a:visited
+{
+	color:#212121;
+}
+
+a:hover
+{
+	color:#212121;
+	text-decoration:underline;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+	font-size: 14px;
+	margin: 15px 15px 0px 0px;
+}
+
+.liens_header1
+{
+	margin-right: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content:space-between;
+}
+
+.liens_header2
+{
+	padding:15px 0px 15px 15px;
+}
+
+.points
+{
+	width: 30px;
+	height: 30px;
+	fill: rgb(95, 99, 104);
+	padding: 5px;
+	border-radius: 50%;
+	margin: 3px 10px 0px 10px;
+}
+
+.connexion
+{
+	background-color: #2B7DE9;
+	color: #FFFFFF;
+	border:none;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	margin-top:5px;
+}
+
+.google
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	font-size: 100px;
+}
+
+.G1
+{
+	color:#4488EE;	
+}
+
+.O1, .E
+{
+	color:#EE4433;
+}
+
+.O2
+{
+	color: #FFBB00;
+}
+
+.G2
+{
+	color: #4488EE;
+}
+
+.L
+{
+	color: #33AA55;
+}
+
+.recherche
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	font-size:14px;
+}
+
+.searchbar
+{
+	display: flex;
+	flex-direction: row;
+	border: 1px #ACACAC solid;
+	border-radius: 30px;
+	height:45px;
+}
+
+.loupe
+{
+	padding-top:10px;
+	margin-left:15px;
+	height: 25px;
+	width: 25px;
+	fill:#9AA0A6;
+}
+
+.champs
+{
+	display : flex;
+	height: 45px;
+	width: 600px;
+	opacity:0;
+}
+
+.bouton1
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+
+.bouton2
+{
+	background-color: #F8F9FA;
+	border:none;
+	border-radius:5px;
+	font-size:15px;
+	padding : 10px 20px 10px 20px;
+	margin : 30px 20px 0px 20px;
+}
+
+footer
+{
+	background-color: rgb(242, 242, 242);
+	padding-bottom : 10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.BasDePage 
+{
+	display:flex;
+	flex-direction : row;
+	align-items: center;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+.gauche
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+
+.droite
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	margin-right: 30px;
+}
+
+.Element
+{
+	padding:10px 10px 10px 10px;
+	margin-left: 10px;
+	color: #212121;
+}
